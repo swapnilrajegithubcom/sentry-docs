@@ -62,6 +62,18 @@ type Redirect = {
 
 const REDIRECTS: Redirect[] = [
   {
+    from: '/platforms/javascript/performance/instrumentation/custom-instrumentation/caches-module/',
+    to: '/platforms/javascript/guides/node/performance/instrumentation/custom-instrumentation/caches-module/',
+  },
+  {
+    from: '/account/early-adopter-features/discord/',
+    to: '/organization/integrations/notification-incidents/discord/',
+  },
+  {
+    from: '/platforms/python/migration/configuration/filtering/',
+    to: '/platforms/python/configuration/filtering/',
+  },
+  {
     from: '/organization/integrations/github/',
     to: '/organization/integrations/source-code-mgmt/github/',
   },
@@ -1115,11 +1127,15 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/product/performance/event-detail/',
-    to: '/product/sentry-basics/concepts/tracing/event-detail/',
+    to: '/concepts/key-terms/tracing/trace-view/',
   },
   {
     from: '/product/sentry-basics/tracing/event-detail/',
-    to: '/product/sentry-basics/concepts/tracing/event-detail/',
+    to: '/product/sentry-basics/concepts/key-terms/tracing/trace-view/',
+  },
+  {
+    from: '/concepts/key-terms/tracing/event-detail/',
+    to: '/concepts/key-terms/tracing/trace-view/',
   },
   {
     from: '/product/sentry-basics/dsn-explainer/',
@@ -2062,6 +2078,10 @@ const REDIRECTS: Redirect[] = [
     to: '/organization/early-adopter-features/',
   },
   {
+    from: '/pricing/am2-pricing/',
+    to: '/pricing/legacy-pricing/',
+  },
+  {
     from: '/learn/pricing/',
     to: '/pricing/',
   },
@@ -2071,11 +2091,11 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/learn/quotas/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/product/quotas/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/learn/sensitive-data/',
@@ -2083,15 +2103,15 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/product/data-management-settings/dynamic-sampling/getting-started/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/product/data-management-settings/dynamic-sampling/benefits-dynamic-sampling/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/guides/manage-event-stream/',
-    to: '/organization/quotas/manage-event-stream-guide/',
+    to: '/pricing/quotas/manage-event-stream-guide/',
   },
   {
     from: '/learn/sso/',
@@ -2151,27 +2171,27 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/profiling/',
-    to: '/product/profiling/',
+    to: '/product/explore/profiling/',
   },
   {
     from: '/profiling/performance-overhead/',
-    to: '/product/profiling/performance-overhead/',
+    to: '/product/explore/profiling/performance-overhead/',
   },
   {
     from: '/profiling/setup/',
-    to: '/product/profiling/getting-started/',
+    to: '/product/explore/profiling/getting-started/',
   },
   {
     from: '/profiling/getting-started/',
-    to: '/product/profiling/getting-started/',
+    to: '/product/explore/profiling/getting-started/',
   },
   {
     from: '/profiling/mobile-app-profiling/',
-    to: '/product/profiling/mobile-app-profiling/',
+    to: '/product/explore/profiling/mobile-app-profiling/',
   },
   {
     from: '/profiling/mobile-app-profiling/metrics/',
-    to: '/product/profiling/mobile-app-profiling/metrics/',
+    to: '/product/explore/profiling/mobile-app-profiling/metrics/',
   },
   {
     from: '/product/error-monitoring/filtering/',
@@ -2239,43 +2259,39 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/product/discover/',
-    to: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
   },
   {
     from: '/workflow/discover/',
-    to: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
   },
   {
     from: '/workflow/discover2/',
-    to: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
   },
   {
     from: '/performance-monitoring/discover/',
-    to: '/product/discover-queries/',
-  },
-  {
-    from: '/performance-monitoring/discover-queries/',
-    to: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
   },
   {
     from: '/performance/discover/',
-    to: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
   },
   {
     from: '/guides/discover/',
-    to: '/product/discover-queries/uncover-trends/',
+    to: '/product/explore/discover-queries/uncover-trends/',
   },
   {
     from: '/product/sentry-basics/guides/discover/',
-    to: '/product/discover-queries/uncover-trends/',
+    to: '/product/explore/discover-queries/uncover-trends/',
   },
   {
     from: '/workflow/discover2/query-builder/',
-    to: '/product/discover-queries/query-builder/',
+    to: '/product/explore/discover-queries/query-builder/',
   },
   {
     from: '/performance-monitoring/discover-queries/query-builder/',
-    to: '/product/discover-queries/query-builder/',
+    to: '/product/explore/discover-queries/query-builder/',
   },
   {
     from: '/product/crons/alerts/',
@@ -2580,6 +2596,10 @@ const REDIRECTS: Redirect[] = [
   {
     from: '/product/sentry-basics/search/searchable-properties/releases/',
     to: '/concepts/search/searchable-properties/releases/',
+  },
+  {
+    from: '/product/sentry-basics/search/searchable-properties/spans/',
+    to: '/concepts/search/searchable-properties/spans/',
   },
   {
     from: '/product/sentry-basics/search/searchable-properties/session-replay/',
@@ -2970,6 +2990,10 @@ const REDIRECTS: Redirect[] = [
     to: '/pricing/',
   },
   {
+    from: '/product/account/pricing/',
+    to: '/pricing/',
+  },
+  {
     from: '/platforms/dotnet/compatibility/',
     to: '/platforms/dotnet/',
   },
@@ -3027,35 +3051,35 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/product/accounts/quotas/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/product/accounts/quotas/spike-protection/',
-    to: '/organization/quotas/spike-protection/',
+    to: '/pricing/quotas/spike-protection/',
   },
   {
     from: '/product/accounts/quotas/spend-allocation/',
-    to: '/organization/quotas/spend-allocation/',
+    to: '/pricing/quotas/spend-allocation/',
   },
   {
     from: '/product/accounts/quotas/manage-event-stream-guide/',
-    to: '/organization/quotas/manage-event-stream-guide/',
+    to: '/pricing/quotas/manage-event-stream-guide/',
   },
   {
     from: '/product/accounts/quotas/manage-transaction-quota/',
-    to: '/organization/quotas/manage-transaction-quota/',
+    to: '/pricing/quotas/manage-transaction-quota/',
   },
   {
     from: '/product/accounts/quotas/manage-replay-quota/',
-    to: '/organization/quotas/manage-replay-quota/',
+    to: '/pricing/quotas/manage-replay-quota/',
   },
   {
     from: '/product/accounts/quotas/manage-attachments-quota/',
-    to: '/organization/quotas/manage-attachments-quota/',
+    to: '/pricing/quotas/manage-attachments-quota/',
   },
   {
     from: '/product/accounts/quotas/manage-cron-monitors/',
-    to: '/organization/quotas/manage-cron-monitors/',
+    to: '/pricing/quotas/manage-cron-monitors/',
   },
   {
     from: '/product/accounts/migration/',
@@ -3087,11 +3111,163 @@ const REDIRECTS: Redirect[] = [
   },
   {
     from: '/account/quotas/',
-    to: '/organization/quotas/',
+    to: '/pricing/quotas/',
+  },
+  {
+    from: '/organization/quotas/',
+    to: '/pricing/quotas/',
   },
   {
     from: '/account/sso/',
     to: '/organization/authentication/sso/',
+  },
+  {
+    from: '/product/ai-monitoring/',
+    to: '/product/insights/llm-monitoring/',
+  },
+  {
+    from: '/product/ai-monitoring/getting-started/',
+    to: '/product/insights/llm-monitoring/getting-started/',
+  },
+  {
+    from: '/product/ai-monitoring/getting-started/the-dashboard/',
+    to: '/product/insights/llm-monitoring/getting-started/the-dashboard/',
+  },
+  {
+    from: '/product/llm-monitoring/',
+    to: '/product/insights/llm-monitoring/',
+  },
+  {
+    from: '/product/llm-monitoring/getting-started/',
+    to: '/product/insights/llm-monitoring/getting-started/',
+  },
+  {
+    from: '/product/llm-monitoring/getting-started/the-dashboard/',
+    to: '/product/insights/llm-monitoring/getting-started/the-dashboard/',
+  },
+  {
+    from: '/product/metrics/',
+    to: '/product/explore/metrics/',
+  },
+  {
+    from: '/product/profiling/',
+    to: '/product/explore/profiling/',
+  },
+  {
+    from: '/product/discover-queries/',
+    to: '/product/explore/discover-queries/',
+  },
+  {
+    from: '/product/session-replay/',
+    to: '/product/explore/session-replay/',
+  },
+  {
+    from: '/enriching-error-data/advanced-datascrubbing/',
+    to: '/concepts/data-management/advanced-datascrubbing/',
+  },
+  {
+    from: '/data-management/advanced-datascrubbing/',
+    to: '/concepts/data-management/advanced-datascrubbing/',
+  },
+  {
+    from: '/platforms/javascript/guides/react/features/component-tracking/',
+    to: '/platforms/javascript/guides/react/features/component-names/',
+  },
+  {
+    from: '/platforms/rust/usage/sdk-fingerprinting/',
+    to: '/concepts/data-management/event-grouping/fingerprint-rules/',
+  },
+  {
+    from: '/platforms/javascript/guides/angular/lazy-load-sentry/',
+    to: '/platforms/javascript/guides/angular/',
+  },
+  {
+    from: '/platforms/java/guides/spring/data-management/data-forwarding/',
+    to: '/platforms/java/guides/spring/data-management/',
+  },
+  {
+    from: '/support/',
+    to: 'https://sentry.zendesk.com/hc/en-us/',
+  },
+  {
+    from: '/product/security-policy-reporting/',
+    to: '/security-legal-pii/security/security-policy-reporting/',
+  },
+  {
+    from: '/product/session-replay/protecting-user-privacy/',
+    to: '/security-legal-pii/scrubbing/protecting-user-privacy/',
+  },
+  {
+    from: '/product/data-management-settings/restrict-display/',
+    to: '/security-legal-pii/scrubbing/restrict-display/',
+  },
+  {
+    from: '/product/performance/requests/',
+    to: '/product/insights/requests/',
+  },
+  {
+    from: '/product/performance/queries/',
+    to: '/product/insights/queries/',
+  },
+  {
+    from: '/product/performance/resources/',
+    to: '/product/insights/assets/',
+  },
+  {
+    from: '/product/performance/assets/',
+    to: '/product/insights/assets/',
+  },
+  {
+    from: '/product/performance/mobile-vitals/',
+    to: '/product/insights/mobile-vitals/',
+  },
+  {
+    from: '/product/performance/mobile-vitals/screen-loads/',
+    to: '/product/insights/mobile-vitals/screen-loads/',
+  },
+  {
+    from: '/product/performance/mobile-vitals/app-starts/',
+    to: '/product/insights/mobile-vitals/app-starts/',
+  },
+  {
+    from: '/product/performance/web-vitals/',
+    to: '/product/insights/web-vitals/',
+  },
+  {
+    from: '/product/performance/web-vitals/web-vitals-concepts/',
+    to: '/product/insights/web-vitals/web-vitals-concepts/',
+  },
+  {
+    from: '/product/performance/caches/',
+    to: '/product/insights/caches/',
+  },
+  {
+    from: '/product/performance/caches/cache-page/',
+    to: '/product/insights/caches/cache-page/',
+  },
+  {
+    from: '/product/performance/queue-monitoring/',
+    to: '/product/insights/queue-monitoring/',
+  },
+  {
+    from: '/product/performance/queue-monitoring/queues-page/',
+    to: '/product/insights/queue-monitoring/queues-page/',
+  },
+  {
+    from: '/product/explore/session-replay/protecting-user-privacy/',
+    to: '/security-legal-pii/scrubbing/protecting-user-privacy/',
+  },
+  {
+    from: '/account/choose-your-data-center/',
+    to: '/organization/data-storage-location/',
+  },
+  {
+    from: '/account/early-adopter/',
+    to: '/organization/early-adopter-features/',
+  },
+  {
+    from: '/account/quotas/spike-protection/',
+    to: '/pricing/quotas/spike-protection/',
   },
 ];
 
